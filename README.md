@@ -1,27 +1,43 @@
 # Stefan McFeeters
 
-I build automation and integration systems for small businesses and operations teams.
+I’m an automation and integration developer based in Melbourne, Australia.
 
-My work connects websites, APIs, CRMs, spreadsheets, payments and operator dashboards. Most projects focus on lead routing, data quality, exception handling, and making workflows easier to run and diagnose.
+I build the connections between customer-facing software, APIs, CRMs, data stores, workflow platforms, and the people responsible for running them. My work covers AI support systems, backend services, lead operations, workflow reliability, internal tools, and connected edge systems.
 
-I’m based in Melbourne and currently open to automation, integration, and backend development roles.
+I’m currently open to automation, integration, backend, and forward-deployed engineering roles.
 
-## Recent implementation work
+## Selected projects
 
-- [Conversion measurement and inbound lead system](https://smsystems.au/work/conversion-measurement-inbound-lead-system/) — GTM, GA4, HubSpot, Airtable, and Make with event QA, deduplication, and a human qualification gate.
-- [Airtable and Make opportunity pipeline](https://smsystems.au/work/airtable-make-opportunity-pipeline/) — guarded routing, data-quality checks, reporting, and delivery handoff.
-- [HubSpot lead-to-deal CRM](https://smsystems.au/work/hubspot-lead-to-deal-crm/) — a seven-stage pipeline with connected records, stable deduplication keys, and provider readback.
-- [n8n service-lead routing](https://smsystems.au/work/n8n-service-lead-routing/) — a 16-node workflow with validation, duplicate handling, and explicit review and exception paths.
+- [Zendesk AI Support Copilot with Jira on AWS](https://smsystems.au/work/zendesk-ai-support-copilot/)<br>
+  A private Zendesk app with cited AI suggestions, mandatory agent approval, pgvector retrieval, Amazon Bedrock inference, and a closed-loop Jira engineering handoff.
 
-## Selected tools
+- [Automation Debugger](https://smsystems.au/work/automation-debugger/)<br>
+  An open-source Python toolkit that classifies Zapier, Make, n8n, and webhook failures, refuses unsafe retries, and produces repair records another engineer can follow.
 
-- [Automation Debugger](https://github.com/stefan-mcf/automation-debugger) — diagnoses failed Zapier, Make, n8n, and webhook workflows using replayable fixtures and structured repair reports.
-- [API Webhook Bridge](https://github.com/stefan-mcf/api-webhook-bridge) — a FastAPI integration bridge with validation, mapping, idempotency, audit logs, and dead-letter handling.
-- [Sheets Airtable Sync](https://github.com/stefan-mcf/sheets-airtable-sync) — validation, deduplication, reconciliation, exception routing, and Airtable/Sheets-ready outputs.
-- [Invoice Router](https://github.com/stefan-mcf/invoice-router) — fixture-safe extraction, validation, review routing, and accounting-ready export previews.
+- [Conversion Measurement and Inbound Lead System](https://smsystems.au/work/conversion-measurement-inbound-lead-system/)<br>
+  A live path across Next.js, GTM, GA4, HubSpot, Airtable, and Make, joined by one submission ID and checked with Playwright for exactly-once conversion events.
 
-## Tools
+- [Precision Residential Construction Website](https://smsystems.au/work/precision-residential-construction/)<br>
+  A delivered client website that turns services, project photography, and quote requirements into a clear customer journey and structured enquiry.
 
-Python, TypeScript, Go, FastAPI, Next.js, PostgreSQL, Docker, Playwright, GitHub Actions, n8n, Make, Airtable, HubSpot, Zendesk, and Jira.
+## Public engineering tools
 
-[Website](https://smsystems.au/) · [LinkedIn](https://www.linkedin.com/in/stefan-mcfeeters/) · [Email](mailto:stefan@smsystems.au)
+| Repository | What it does |
+| --- | --- |
+| [automation-debugger](https://github.com/stefan-mcf/automation-debugger) | Diagnoses workflow failures and makes retry risk explicit. |
+| [api-webhook-bridge](https://github.com/stefan-mcf/api-webhook-bridge) | Validates, maps, deduplicates, and records webhook operations through FastAPI. |
+| [sheets-airtable-sync](https://github.com/stefan-mcf/sheets-airtable-sync) | Reconciles records, routes exceptions, and prepares Airtable and Sheets outputs. |
+| [invoice-router](https://github.com/stefan-mcf/invoice-router) | Extracts and validates invoice data before review and accounting export. |
+| [review-router](https://github.com/stefan-mcf/review-router) | Applies typed workflow contracts and human review checkpoints through CLI and API surfaces. |
+
+## How I work
+
+- Start with the operating decision, failure state, and ownership boundary.
+- Keep provider writes deliberate, idempotent, and visible to the operator.
+- Test the paths that can duplicate, misroute, or silently lose work.
+- Leave the system readable for the next engineer or business owner.
+
+**Code:** Python, TypeScript, Go, FastAPI, Next.js, PostgreSQL, Docker, Playwright<br>
+**Platforms:** AWS, Zendesk, Jira, HubSpot, Airtable, Make, n8n, GTM, GA4
+
+[Portfolio](https://smsystems.au/) · [LinkedIn](https://www.linkedin.com/in/stefan-mcfeeters/) · [Email](mailto:stefan@smsystems.au)
