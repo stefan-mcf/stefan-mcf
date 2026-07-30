@@ -1,43 +1,57 @@
 # Stefan McFeeters
 
-I’m an automation and integration developer based in Melbourne, Australia.
+Automation and integration developer based in Melbourne, Australia.
 
-I build the connections between customer-facing software, APIs, CRMs, data stores, workflow platforms, and the people responsible for running them. My work covers AI support systems, backend services, lead operations, workflow reliability, internal tools, and connected edge systems.
+I work across backend services, AI support systems, CRM and lead operations, workflow platforms, and connected field systems. My main tools are Python, TypeScript, FastAPI, PostgreSQL and AWS, alongside Zendesk, Jira, HubSpot, Airtable, Make and n8n.
 
-I’m currently open to automation, integration, backend, and forward-deployed engineering roles.
+I’m currently open to automation, integration, backend and forward-deployed engineering roles.
 
 ## Selected projects
 
-- [Automation Debugger](https://github.com/stefan-mcf/automation-debugger) · [Case study](https://github.com/stefan-mcf/automation-debugger/blob/main/docs/case-study.md)<br>
-  Diagnoses Zapier, Make, n8n, and webhook failures, separates repair from replay, and refuses unsafe duplicate or mismatched operations.
+### [Zendesk AI Support Copilot](https://github.com/stefan-mcf/zendesk-ai-support-copilot)
 
-- [API Webhook Bridge](https://github.com/stefan-mcf/api-webhook-bridge) · [Case study](https://github.com/stefan-mcf/api-webhook-bridge/blob/main/docs/case-study.md)<br>
-  A FastAPI integration service with contract validation, config-driven mapping, idempotency, audit records, and dead-letter handling.
+Human-reviewed support system with grounded knowledge retrieval, cited private suggestions, safety gates, a Zendesk-to-Jira engineering handoff, a 40-case evaluation suite and Terraform infrastructure for AWS.
 
-- [Sheets Airtable Sync](https://github.com/stefan-mcf/sheets-airtable-sync) · [Case study](https://github.com/stefan-mcf/sheets-airtable-sync/blob/main/docs/case-study.md)<br>
-  Reconciles inconsistent rows into validated Airtable upsert plans with normalisation, deduplication, exception routing, and operator-readable reports.
+`Python` `FastAPI` `React` `PostgreSQL` `AWS Bedrock` `Zendesk` `Jira`
 
-- [Invoice Router](https://github.com/stefan-mcf/invoice-router) · [Case study](https://github.com/stefan-mcf/invoice-router/blob/main/docs/case-study.md)<br>
-  Extracts and validates invoice records, routes uncertainty to a review queue, and prepares accounting exports only after approval.
+### [Conversion Measurement and Inbound Lead System](https://github.com/stefan-mcf/conversion-measurement-inbound-lead-system)
 
-## Additional engineering tools
+Live GTM and GA4 measurement connected to HubSpot, Airtable and Make through one stable submission identifier. Includes a Playwright harness that caught and retained a duplicate conversion-event regression.
 
-| Repository | What it does |
+`Playwright` `GTM` `GA4` `HubSpot` `Airtable` `Make`
+
+### [Precision Residential Construction Website](https://github.com/stefan-mcf/precision-residential-construction)
+
+Live client website for a Geelong residential builder, with responsive service and project content, direct contact paths and structured quote intake.
+
+`HTML` `CSS` `JavaScript` `n8n`
+
+### [Automation Debugger](https://github.com/stefan-mcf/automation-debugger)
+
+Python toolkit for diagnosing failed Zapier, Make, n8n and webhook runs. It classifies the failure, separates repair from replay and blocks unsafe duplicate or mismatched operations.
+
+`Python` `FastAPI` `pytest` `Docker`
+
+## Operations and workflow systems
+
+| Project | Focus |
 | --- | --- |
-| [review-router](https://github.com/stefan-mcf/review-router) | Applies typed workflow contracts and human review checkpoints through CLI and API surfaces. |
-| [automation-kit](https://github.com/stefan-mcf/automation-kit) | Provides reusable Python, FastAPI, OpenAPI, Docker, and low-code automation patterns. |
-| [browser-research](https://github.com/stefan-mcf/browser-research) | Collects browser research with source extraction, evidence scoring, and structured outputs. |
+| [RFID Carwash Subscription Access System](https://github.com/stefan-mcf/rfid-subscription-access-system) | Customer subscriptions, RFID tag registration, edge access decisions, operator controls and PLC integration. |
+| [Airtable and Make Opportunity Pipeline](https://github.com/stefan-mcf/airtable-make-opportunity-pipeline) | Owner-approved intake, stable-key duplicate control, exception routing and accepted project handoff. |
+| [HubSpot Lead-to-Deal CRM](https://github.com/stefan-mcf/hubspot-lead-to-deal-crm) | Linked company, contact and deal records with a seven-stage operating pipeline and idempotent lifecycle controls. |
+| [n8n Service Lead Routing](https://github.com/stefan-mcf/n8n-service-lead-routing) | Importable 16-node workflow covering accepted, duplicate, invalid, review and integration-exception outcomes. |
+| [Airtable Coaching Program Delivery Hub](https://github.com/stefan-mcf/airtable-coaching-program-delivery-hub) | Linked participants, coaching plans and sessions with owner and role-specific Airtable Interfaces. |
+| [Zendesk to Jira Support Escalation](https://github.com/stefan-mcf/zendesk-jira-support-escalation) | Guarded provider-native trigger, webhook mapping and destination reconciliation. |
 
-The [SM Systems portfolio](https://smsystems.au/) covers delivered websites, CRM and lead operations, measurement, workflow platforms, and connected systems.
+## Supporting tools
 
-## How I work
-
-- Start with the operating decision, failure state, and ownership boundary.
-- Keep provider writes deliberate, idempotent, and visible to the operator.
-- Test the paths that can duplicate, misroute, or silently lose work.
-- Leave the system readable for the next engineer or business owner.
-
-**Code:** Python, TypeScript, Go, FastAPI, Next.js, PostgreSQL, Docker, Playwright<br>
-**Platforms:** AWS, Zendesk, Jira, HubSpot, Airtable, Make, n8n, GTM, GA4
+| Repository | Focus |
+| --- | --- |
+| [API Webhook Bridge](https://github.com/stefan-mcf/api-webhook-bridge) | Contract validation, configurable field mapping, idempotency, audit records and dead-letter handling. |
+| [Sheets Airtable Sync](https://github.com/stefan-mcf/sheets-airtable-sync) | Row normalisation, reconciliation, exception routing and Airtable upsert planning. |
+| [Invoice Router](https://github.com/stefan-mcf/invoice-router) | Invoice extraction, validation, review routing and accounting export preparation. |
+| [Review Router](https://github.com/stefan-mcf/review-router) | Typed policy gates, confidence metadata and human review through CLI and API surfaces. |
+| [Automation Kit](https://github.com/stefan-mcf/automation-kit) | Reusable Python, FastAPI, OpenAPI, Docker and low-code workflow patterns. |
+| [Browser Research](https://github.com/stefan-mcf/browser-research) | Browser-based source extraction, evidence scoring and structured research output. |
 
 [Portfolio](https://smsystems.au/) · [LinkedIn](https://www.linkedin.com/in/stefan-mcfeeters/) · [Email](mailto:stefan@smsystems.au)
