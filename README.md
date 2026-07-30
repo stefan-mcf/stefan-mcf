@@ -47,6 +47,7 @@ Python toolkit for diagnosing failed Zapier, Make, n8n and webhook runs. It clas
 
 | Repository | Focus |
 | --- | --- |
+| [Shopify Revenue Leak Auditor](https://github.com/stefan-mcf/shopify-revenue-leak-auditor) | Browser-based product-page audits with evidence capture, weighted findings and client-ready Markdown and HTML reports. |
 | [API Webhook Bridge](https://github.com/stefan-mcf/api-webhook-bridge) | Contract validation, configurable field mapping, idempotency, audit records and dead-letter handling. |
 | [Sheets Airtable Sync](https://github.com/stefan-mcf/sheets-airtable-sync) | Row normalisation, reconciliation, exception routing and Airtable upsert planning. |
 | [Invoice Router](https://github.com/stefan-mcf/invoice-router) | Invoice extraction, validation, review routing and accounting export preparation. |
