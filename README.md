@@ -8,27 +8,27 @@ I’m currently open to automation, integration, backend, and forward-deployed e
 
 ## Selected projects
 
-- [Zendesk AI Support Copilot with Jira on AWS](https://smsystems.au/work/zendesk-ai-support-copilot/)<br>
-  A private Zendesk app with cited AI suggestions, mandatory agent approval, pgvector retrieval, Amazon Bedrock inference, and a closed-loop Jira engineering handoff.
+- [Automation Debugger](https://github.com/stefan-mcf/automation-debugger) · [Case study](https://github.com/stefan-mcf/automation-debugger/blob/main/docs/case-study.md)<br>
+  Diagnoses Zapier, Make, n8n, and webhook failures, separates repair from replay, and refuses unsafe duplicate or mismatched operations.
 
-- [Automation Debugger](https://smsystems.au/work/automation-debugger/)<br>
-  An open-source Python toolkit that classifies Zapier, Make, n8n, and webhook failures, refuses unsafe retries, and produces repair records another engineer can follow.
+- [API Webhook Bridge](https://github.com/stefan-mcf/api-webhook-bridge) · [Case study](https://github.com/stefan-mcf/api-webhook-bridge/blob/main/docs/case-study.md)<br>
+  A FastAPI integration service with contract validation, config-driven mapping, idempotency, audit records, and dead-letter handling.
 
-- [Conversion Measurement and Inbound Lead System](https://smsystems.au/work/conversion-measurement-inbound-lead-system/)<br>
-  A live path across Next.js, GTM, GA4, HubSpot, Airtable, and Make, joined by one submission ID and checked with Playwright for exactly-once conversion events.
+- [Sheets Airtable Sync](https://github.com/stefan-mcf/sheets-airtable-sync) · [Case study](https://github.com/stefan-mcf/sheets-airtable-sync/blob/main/docs/case-study.md)<br>
+  Reconciles inconsistent rows into validated Airtable upsert plans with normalisation, deduplication, exception routing, and operator-readable reports.
 
-- [Precision Residential Construction Website](https://smsystems.au/work/precision-residential-construction/)<br>
-  A delivered client website that turns services, project photography, and quote requirements into a clear customer journey and structured enquiry.
+- [Invoice Router](https://github.com/stefan-mcf/invoice-router) · [Case study](https://github.com/stefan-mcf/invoice-router/blob/main/docs/case-study.md)<br>
+  Extracts and validates invoice records, routes uncertainty to a review queue, and prepares accounting exports only after approval.
 
-## Public engineering tools
+## Additional engineering tools
 
 | Repository | What it does |
 | --- | --- |
-| [automation-debugger](https://github.com/stefan-mcf/automation-debugger) | Diagnoses workflow failures and makes retry risk explicit. |
-| [api-webhook-bridge](https://github.com/stefan-mcf/api-webhook-bridge) | Validates, maps, deduplicates, and records webhook operations through FastAPI. |
-| [sheets-airtable-sync](https://github.com/stefan-mcf/sheets-airtable-sync) | Reconciles records, routes exceptions, and prepares Airtable and Sheets outputs. |
-| [invoice-router](https://github.com/stefan-mcf/invoice-router) | Extracts and validates invoice data before review and accounting export. |
 | [review-router](https://github.com/stefan-mcf/review-router) | Applies typed workflow contracts and human review checkpoints through CLI and API surfaces. |
+| [automation-kit](https://github.com/stefan-mcf/automation-kit) | Provides reusable Python, FastAPI, OpenAPI, Docker, and low-code automation patterns. |
+| [browser-research](https://github.com/stefan-mcf/browser-research) | Collects browser research with source extraction, evidence scoring, and structured outputs. |
+
+The [SM Systems portfolio](https://smsystems.au/) covers delivered websites, CRM and lead operations, measurement, workflow platforms, and connected systems.
 
 ## How I work
 
