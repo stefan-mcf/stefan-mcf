@@ -38,6 +38,7 @@ Python toolkit for diagnosing failed Zapier, Make, n8n and webhook runs. It clas
 | --- | --- |
 | [RFID Carwash Subscription Access System](https://github.com/stefan-mcf/rfid-subscription-access-system) | Customer subscriptions, RFID tag registration, edge access decisions, operator controls and PLC integration. |
 | [Airtable and Make Opportunity Pipeline](https://github.com/stefan-mcf/airtable-make-opportunity-pipeline) | Owner-approved intake, stable-key duplicate control, exception routing and accepted project handoff. |
+| [Conversion Measurement and Inbound Lead System](https://github.com/stefan-mcf/conversion-measurement-inbound-lead-system) | Live GTM and GA4 measurement, HubSpot intake, Airtable and Make routing, human qualification and exactly-once event QA. |
 | [HubSpot Lead-to-Deal CRM](https://github.com/stefan-mcf/hubspot-lead-to-deal-crm) | Linked company, contact and deal records with a seven-stage operating pipeline and idempotent lifecycle controls. |
 | [n8n Service Lead Routing](https://github.com/stefan-mcf/n8n-service-lead-routing) | Importable 16-node workflow covering accepted, duplicate, invalid, review and integration-exception outcomes. |
 | [Airtable Coaching Program Delivery Hub](https://github.com/stefan-mcf/airtable-coaching-program-delivery-hub) | Linked participants, coaching plans and sessions with owner and role-specific Airtable Interfaces. |
