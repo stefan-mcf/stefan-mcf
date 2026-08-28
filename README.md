@@ -1,10 +1,12 @@
 # Stefan McFeeters
 
-Automation and integration developer based in Melbourne, Australia.
+AI-assisted systems and workflow automation practitioner completing a Bachelor of Artificial Intelligence in Melbourne, Australia.
 
-I work across backend services, AI support systems, CRM and lead operations, workflow platforms, and connected field systems. My main tools are Python, TypeScript, FastAPI, PostgreSQL and AWS, alongside Zendesk, Jira, HubSpot, Airtable, Make and n8n.
+I translate operational processes into integrations, usable tools, tested workflows and documented handovers. My work spans backend services, AI support systems, CRM and lead operations, workflow platforms, and connected field systems.
 
-I’m currently open to automation, integration, backend and forward-deployed engineering roles.
+My main tools are Python, TypeScript, FastAPI, PostgreSQL and AWS, alongside Zendesk, Jira, HubSpot, Airtable, Make and n8n.
+
+I’m open to systems implementation, business systems, integration and workflow automation roles, with a long-term interest in EAM, asset-intensive operations and resources.
 
 ## Selected projects
 
