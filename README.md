@@ -1,73 +1,42 @@
 # Stefan McFeeters
 
-I design and build operational software, integrations and automation through [SM Systems](https://smsystems.au/).
+I build applied AI software, integrations and industrial systems. I'm in the final year of my Bachelor of Artificial Intelligence at Deakin and currently work with Downer in gas metering and disconnections.
 
-I take on scoped business projects and agency subcontracting, covering implementation, testing and handover. My work spans custom software, customer-facing websites, CRM and support systems, cloud services, and connected RFID/edge systems. Ongoing work can cover improvements, integrations and an agreed delivery backlog.
-
-My main tools are Python, TypeScript, C#/.NET, FastAPI, PostgreSQL and AWS, alongside Zendesk, Jira, HubSpot, Airtable, Make and n8n.
-
-For a project or agency subcontract, email [stefan@smsystems.au](mailto:stefan@smsystems.au) with what exists, what needs to work better and your timeframe.
+My work spans Python, C#/.NET, SQL, cloud services and mobile applications. I use Codex and Claude throughout specification, reusable skill and tool design, implementation, review and verification. I'm looking to contribute within a larger AI/software engineering team and build on that experience in an enterprise environment.
 
 ## Selected projects
 
+### [Zendesk AI Support Copilot](https://github.com/stefan-mcf/zendesk-ai-support-copilot)
+
+Retrieval-assisted support with cited private suggestions, human approval and a verified Zendesk-to-Jira handoff. I designed and built the backend, evaluation, interfaces and AWS delivery. The repo includes synthetic regression cases and documents the completed commissioning and decommissioned runtime.
+
+### [RFID Operations Console DevSecOps Lab](https://github.com/stefan-mcf/rfid-operations-console-devsecops-lab)
+
+C#/.NET access-control application with SQLite, tests and a seven-stage Jenkins pipeline covering quality, security, staged deployment, rollback and monitoring. Academic lab with simulated reader events and versioned build evidence.
+
 ### [RFID Subscription and Access Platform](https://github.com/stefan-mcf/rfid-subscription-access-system)
 
-Client systems implementation connecting customer accounts, per-vehicle subscriptions, local RFID access decisions and operator controls. I designed and implemented the application, cloud and edge integration. Stripe remains in sandbox and staged physical commissioning remains. The public repository contains architecture and a reference model; client source stays private.
-
-`.NET` `PostgreSQL` `AWS` `SQLite` `RFID` `OPC UA`
-
-### [Precision Residential Construction Website](https://github.com/stefan-mcf/precision-residential-construction)
-
-Live paid-client website for a Geelong residential builder. I handled discovery, content, design, implementation and launch, including responsive project content, direct contact paths and structured quote intake. [Visit the client site](https://prconstruction.au/).
-
-`HTML` `CSS` `JavaScript` `n8n`
-
-### [Conversion Measurement and Inbound Lead System](https://github.com/stefan-mcf/conversion-measurement-inbound-lead-system)
-
-SM Systems' own enquiry and measurement implementation connecting the website, GTM/GA4, HubSpot, Airtable and Make. I built the shared submission reference, human qualification controls and Playwright checks, including a retained duplicate-event regression.
-
-`Playwright` `GTM` `GA4` `HubSpot` `Airtable` `Make`
-
-### [Airtable and Make Opportunity Pipeline](https://github.com/stefan-mcf/airtable-make-opportunity-pipeline)
-
-Internal opportunity and delivery system for approved intake, duplicate control, exceptions and accepted project handoff. My work covers the data model, routing controls and operator workflow; the connected router was returned to inactive after testing.
-
-`Airtable` `Make` `JSON contracts`
+Client systems work linking accounts, vehicle subscriptions, RFID decisions, offline edge state and PLC/CODESYS controls. I designed and implemented the application, cloud and edge integration. The operational source stays private; the public repo contains contracts, reference code and a case study.
 
 ### [API Webhook Bridge](https://github.com/stefan-mcf/api-webhook-bridge)
 
-Local reference implementation for validating events, mapping fields and preventing duplicate downstream operations. I built the FastAPI service, audit/dead-letter controls, tests and operating documentation. Its supplied scenarios use local provider-shaped contracts.
+Python/FastAPI reference for typed events, explicit mappings, idempotency, audit records and dead-letter handling. I built the service and tests; its examples prepare local provider-shaped operations.
 
-`Python` `FastAPI` `OpenAPI` `pytest`
+### [Automation Kit](https://github.com/stefan-mcf/automation-kit)
 
-### [Zendesk AI Support Copilot](https://github.com/stefan-mcf/zendesk-ai-support-copilot)
+Reusable workflow contracts, Python implementations and CLI/API/MCP interfaces. The stdio integration test exercises real initialization, tool discovery and bounded execution. Development-workflow notes separate AI-assisted engineering from runtime agent behavior.
 
-Internal support system with grounded retrieval, cited private suggestions, human approval and a verified Zendesk-to-Jira handoff. My work spans discovery, backend, evaluation, frontend and AWS delivery. Controlled AWS commissioning is documented; the temporary runtime was decommissioned after closeout.
-
-`Python` `FastAPI` `React` `PostgreSQL` `AWS Bedrock` `Zendesk` `Jira`
-
-## Operations and workflow systems
+## Supporting work
 
 | Project | Focus |
 | --- | --- |
-| [HubSpot Lead-to-Deal CRM](https://github.com/stefan-mcf/hubspot-lead-to-deal-crm) | Linked company, contact and deal records with a seven-stage operating pipeline and idempotent lifecycle controls. |
-| [HubSpot to Zendesk Customer Handoff](https://github.com/stefan-mcf/hubspot-zendesk-customer-handoff) | Approval-gated CRM-to-support mapping, stable external IDs and provider readback using controlled commissioning records. |
-| [n8n Service Lead Routing](https://github.com/stefan-mcf/n8n-service-lead-routing) | Importable 20-node workflow covering accepted, duplicate, invalid, review and integration-exception outcomes. |
-| [Airtable Coaching Program Delivery Hub](https://github.com/stefan-mcf/airtable-coaching-program-delivery-hub) | Linked participants, coaching plans and sessions with owner and role-specific Airtable Interfaces. |
-| [Zendesk to Jira Support Escalation](https://github.com/stefan-mcf/zendesk-jira-support-escalation) | Guarded provider-native trigger, webhook mapping and destination reconciliation. |
+| [Automation Debugger](https://github.com/stefan-mcf/automation-debugger) | Failure diagnosis, controlled replay and reports |
+| [Sheets/Airtable Sync](https://github.com/stefan-mcf/sheets-airtable-sync) | Normalization, data quality and reconciliation previews |
+| [Human Review Router](https://github.com/stefan-mcf/review-router) | Typed policy and accountable operator decisions |
+| [Conversion Measurement](https://github.com/stefan-mcf/conversion-measurement-inbound-lead-system) | Event contracts, measurement and duplicate-event repair |
+| [HubSpot CRM and Handoff](https://github.com/stefan-mcf/hubspot-zendesk-customer-handoff) | Linked records, provider readback and reconciliation |
+| [Precision Residential Construction](https://github.com/stefan-mcf/precision-residential-construction) | Paid-client website design, implementation and launch |
 
-## Supporting tools
+Other work includes native mobile software for large-batch field-route planning and synthetic industrial/data analytics. Those projects remain private while their public case studies are reviewed.
 
-| Repository | Focus |
-| --- | --- |
-| [Shopify Revenue Leak Auditor](https://github.com/stefan-mcf/shopify-revenue-leak-auditor) | Browser-based product-page audits with evidence capture, weighted findings and client-ready Markdown and HTML reports. |
-| [Automation Debugger](https://github.com/stefan-mcf/automation-debugger) | Failure diagnosis, deterministic corrections and guarded local replay for automation events. |
-| [Sheets Airtable Sync](https://github.com/stefan-mcf/sheets-airtable-sync) | Row normalisation, reconciliation, exception routing and Airtable upsert planning. |
-| [Invoice Router](https://github.com/stefan-mcf/invoice-router) | Invoice extraction, validation, review routing and accounting export preparation. |
-| [Review Router](https://github.com/stefan-mcf/review-router) | Typed policy gates, confidence metadata and human review through CLI and API surfaces. |
-| [Automation Kit](https://github.com/stefan-mcf/automation-kit) | Reusable Python, FastAPI, OpenAPI, Docker and low-code workflow patterns. |
-| [Browser Research](https://github.com/stefan-mcf/browser-research) | Browser-based source extraction, evidence scoring and structured research output. |
-
-I’m also completing a Bachelor of Artificial Intelligence in Melbourne, Australia.
-
-[Portfolio](https://smsystems.au/) · [LinkedIn](https://www.linkedin.com/in/stefan-mcfeeters/) · [Email](mailto:stefan@smsystems.au)
+Client and internal projects are developed through [SM Systems](https://smsystems.au/). Based in Melbourne · [Contact](mailto:stefan@smsystems.au).
