@@ -1,7 +1,7 @@
 # Stefan McFeeters
 
-I build AI tools, integrations and industrial software.
+I build and evaluate AI and machine learning systems. My projects include human-reviewed retrieval, fault classification and software that connects equipment and operational data. I work primarily in Python and C#/.NET.
 
-Most of my work is in Python and C#/.NET: support tools, APIs and RFID/PLC integrations. I also develop reusable agent skills and MCP tools for software and automation workflows.
+I also take on software and integration projects through SM Systems.
 
-[SM Systems](https://smsystems.au/) · [Contact](mailto:stefan@smsystems.au)
+[Services](https://smsystems.au/#services) · [Contact](mailto:stefan@smsystems.au)
